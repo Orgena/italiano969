@@ -1,0 +1,176 @@
+/**/
+*{box-sizing: border-box}
+body{
+	color: #000;
+	line-height: 1.7;
+    font-family: 'Cairo', sans-serif;
+}
+
+.h1, .h2{font-weight: bold; text-align: center; font-size: 70px}
+
+.align-left{text-align: left}
+
+p{line-height: 1.5; color: #666}
+hr{background-color: #1abc9c; height: 1px ; width: 100%; margin-top: 0}
+
+/*Start Brand*/
+
+.top{background-color: #1abc9c;}
+
+.brand{
+	width: 20%
+}
+img{width:100%}
+
+@media (max-width:600px){
+	.brand{padding: 10px}
+}
+
+/*End Brand*/
+
+/*Start NAV*/
+.navbar{
+	border-radius: 0;
+	margin-bottom: 0;
+	border: 0;
+	background-color: #000;
+}
+.nav-two{font-size: 16px;}
+.nav-two .active a{background-color: #1abc9c !important; color: #fff !important}
+.navbar-default .navbar-nav li{padding-right: 10px;}
+.navbar-default .navbar-nav > li > a{color: #fff;}
+.navbar-default .nav-two > li > a:hover,
+.navbar-default .nav-two > li > a:focus{
+    background-color: #1abc9c;
+    color: #fff;
+    -webkit-transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-o-transition:all 0.3s ease-in-out;
+	transition:all 0.3s ease-in-out;
+}
+.navbar-default .navbar-toggle {
+	border-color: transparent;	
+	transition: all 5s eas-in-out !important
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.navbar-default .navbar-collapse, 
+.navbar-default .navbar-form {
+    border-color: #1abc9c;
+	transition: all 5s eas-in-out;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {background-color: rgba(26, 188, 156, 0.64)}
+/*End NAV*/
+
+/*Start Our Team*/
+
+.team{
+	min-height: 600px;
+}
+.our-team .team h2{
+	margin-top: 60px;
+    margin-bottom: 30px;
+}
+.our-team .team p{margin-bottom:-20px;margin-top: -10px}
+
+.our-team .team .img{
+    margin-bottom: 20px
+}
+.our-team .team img{
+    width: 165px;
+    height: 109.95px;
+    margin-bottom: 20px
+}
+
+
+@media (max-width:600px){
+    .our-team .team h2{
+        font-size: 40px
+    }
+    .our-team .team img{
+    width: 84px;
+    height: 65px;
+    margin-bottom: 10px
+    }
+    .our-team .team .img{
+    margin-bottom: 5px
+    }
+}
+@media (max-width:400px){
+    .our-team .team p{font-size: 10px}
+    .our-team .team h3{font-size: 20px;margin-bottom: 15px}
+    .our-team .team h2{
+	margin-top: 10px;
+    margin-bottom: 10px;
+    }
+}
+/*End Our Team*/
+
+/*Start Footer*/
+.footer{
+	background: #111;
+	color: #aaa;
+	padding-top: 10px
+}
+
+.footer a{color: #aaa}
+.footer a:hover{color: #fff}
+.footer h3{
+	color: #1abc9c; 
+	margin: 30px 0 10px
+}
+
+.footer .social{
+	overflow: hidden
+}
+
+.footer .social li:hover i{opacity: 0.7}
+
+.footer .social i {
+    color: #fff;
+    text-align: center;
+    margin: 20px 10px;
+    background-color: #9da1a5;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    float: left;
+	filter: alpha(opacity=70);
+	-webkit-transition:all 0.5s ease-in-out;
+	-moz-transition:all 0.5s ease-in-out;
+	-o-transition:all 0.5s ease-in-out;
+	transition:all 0.5s ease-in-out;
+}
+
+.footer .social .fa-facebook{
+    background-color: #3b5998
+}
+
+.footer .social .fa-twitter{
+    background-color: #55acee
+}
+
+.footer .social .fa-whatsapp{
+    background-color: #3a961d
+}
+
+.footer .copyright{
+	background: #333;
+	color: #aaa;
+	margin-top: 5px;
+    padding-top: 10px;
+	font-size: 18px;
+    height: 90px
+}
+.footer .copyright span{color: #1abc9c}
+@media (max-width:992px){
+    .footer h3{font-size: 20px}
+}
+@media (max-width:400px){
+    .footer .copyright{font-size: 13px;}
+}
+/*End Footer*/

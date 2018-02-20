@@ -1,0 +1,327 @@
+/**/
+*{box-sizing: border-box}
+body{
+	color: #000;
+	line-height: 1.7;
+    font-family: 'Cairo', sans-serif;
+}
+
+.h1, .h2{font-weight: bold; text-align: center; font-size: 70px}
+
+hr{background-color: #1abc9c; height: 1px ; width: 90%}
+
+.align-left{text-align: left}
+
+p{line-height: 1.5; color: #666}
+
+.carousel-inner p{color: #fff}
+/*Start Picture*/
+
+.carousel-caption{
+	background-color: rgba(26, 188, 156, 0.3);
+	margin-bottom: 250px;
+    padding: 0 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, .6)
+}
+
+.carousel-caption h1{font-size: 50px}
+.carousel-caption p{font-size: 20px}
+
+.carousel-inner img{background-size: cover}
+
+/*End Picture*/
+
+/*Start Brand*/
+.top{background-color: #1abc9c;}
+
+.brand{
+	width: 20%
+}
+img{width:100%}
+
+.lan{
+    text-align: right;	
+    font-size: 18px; 
+    padding-right: 45px;
+    margin-top: 10px; 
+    float: right
+}
+
+.lan a{color: #fff}
+.lan a:hover{text-decoration: none;border-bottom: 1px solid #fff}
+
+@media (max-width:600px){
+	.brand{padding: 10px}
+	.lan{padding-top: 5px}
+}
+
+@media (max-width:1100px){
+    .carousel-caption{margin-bottom: 100px}
+    .carousel-caption h1{font-size: 35px}
+    .carousel-caption p{font-size: 15px}
+}
+@media (max-width:500px){
+    .carousel-caption{margin-bottom: 50px}
+    .carousel-caption h1{font-size: 20px}
+    .carousel-caption p{font-size: 10px}
+
+}
+@media (max-width:400px){
+    .carousel-caption{display: none}
+}
+/*End Brand*/
+
+/*Start NAV*/
+.navbar{
+	border-radius: 0;
+	margin-bottom: 0;
+	border: 0;
+	background-color: #000;
+}
+.nav-two{font-size: 16px;}
+.nav-two .active a{background-color: #1abc9c !important; color: #fff !important}
+.navbar-default .navbar-nav li{padding-right: 10px;}
+.navbar-default .navbar-nav > li > a{color: #fff;}
+.navbar-default .nav-two > li > a:hover,
+.navbar-default .nav-two > li > a:focus{
+    background-color: #1abc9c;
+    color: #fff;
+    -webkit-transition:all 0.5s ease-in-out;
+	-moz-transition:all 0.5s ease-in-out;
+	-o-transition:all 0.5s ease-in-out;
+	transition:all 0.5s ease-in-out;
+}
+.navbar-default .navbar-toggle {
+	border-color: transparent;	
+	-webkit-transition:all 0.5s ease-in-out;
+	-moz-transition:all 0.5s ease-in-out;
+	-o-transition:all 0.5s ease-in-out;
+	transition:all 0.5s ease-in-out;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.navbar-default .navbar-collapse, 
+.navbar-default .navbar-form {
+    border-color: #1abc9c;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {background-color: rgba(26, 188, 156, 0.64)}
+/*End NAV*/
+
+/*Start Our Team*/
+
+.team{
+	min-height: 600px;
+}
+.our-team .team h2{
+	margin-top: 60px;
+    margin-bottom: 30px;
+}
+.our-team .team p{margin-bottom:-20px;margin-top: -10px}
+.our-team .team img{width: 100%;height: 100%;margin-bottom: 20px}
+.our-team .team h3{margin-bottom: 50px}
+.btn{background: #000; padding: 20px;margin-bottom: 50px}
+.btn:hover{background: #1abc9c}
+.btn a{color: #fff; font-size: 30px}
+.btn a:hover{text-decoration: none}
+.btn p{font-size: 18px; padding: 20px}
+
+@media (max-width:600px){
+    .our-team .team h2{
+        font-size: 40px
+    }
+    .btn p{display: none}
+    .btn a{font-size: 18px}
+}
+
+/*End Our Team*/
+
+/*Start Contact*/
+.contact-us{
+    
+	background: url('../images/12.png') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	min-height: 300px
+}
+.contact-us .mail{overflow: hidden;}
+.contact-us .mail li{
+    float: left;
+    font-size: 20px;
+    margin: 10px;
+    text-align: center
+}
+.contact-us .mail li i{font-size: 40px}
+.contact-us .field{
+    background: rgba(255, 255, 255, 0.6);
+	color: #000;
+	min-height: 300px;
+	padding-bottom: 40px;
+	padding-top: 40px
+}
+.contact-us p{margin-bottom: 40px}
+.contact-us textarea{height: 108px}
+.contact-us input[type="text"],
+.contact-us textarea{
+	background-color: rgba(82,78,78,0.7);
+	color: #fff;
+	border: none
+}
+
+@media (max-width:767px){
+    .contact-us h2{font-size: 40px}
+}
+@media (max-width:400px){
+    .contact-us h2{font-size: 20px}
+    .contact-us .mail li i{font-size: 20px}
+    .contact-us .mail li {font-size: 20px;margin: 2px;}
+}
+
+/*End Contact*/
+
+
+/*Start Footer*/
+.footer{
+	background: #111;
+	color: #aaa;
+	padding-top: 10px
+}
+
+.footer a{color: #aaa}
+.footer a:hover{color: #fff}
+.footer h3{
+	color: #1abc9c; 
+	margin: 30px 0 10px
+}
+
+.footer .social{
+	overflow: hidden
+}
+
+.footer .social li:hover i{opacity: 0.7}
+
+.footer .social i {
+    color: #fff;
+    text-align: center;
+    margin: 20px 10px;
+    background-color: #9da1a5;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    float: left;
+	filter: alpha(opacity=70);
+	-webkit-transition:all 0.5s ease-in-out;
+	-moz-transition:all 0.5s ease-in-out;
+	-o-transition:all 0.5s ease-in-out;
+	transition:all 0.5s ease-in-out;
+}
+
+.footer .social .fa-facebook{
+    background-color: #3b5998
+}
+
+.footer .social .fa-twitter{
+    background-color: #55acee
+}
+
+.footer .social .fa-whatsapp{
+    background-color: #3a961d
+}
+
+.footer .copyright{
+	background: #333;
+	color: #aaa;
+	margin-top: 5px;
+    padding-top: 10px;
+	font-size: 18px;
+    height: 90px
+}
+.footer .copyright span{color: #1abc9c}
+@media (max-width:992px){
+    .footer h3{font-size: 20px}
+}
+@media (max-width:400px){
+    .footer .copyright{font-size: 13px;}
+}
+/*End Footer*/
+
+
+
+
+
+
+
+/*Start About-us*/
+
+.about-us{
+	padding-bottom: 30px;
+    padding-top: 30px;
+}
+.about-us h3{line-height: 1.5}
+/*End About-us*/
+
+
+
+
+/*Start Features*/
+
+.features{background-color: rgba(26, 188, 156, 0.1)}
+.features .h1{margin: 50px 0 0}
+.features i{
+    font-size: 40px;
+    text-align: center;
+    margin: 20px 10px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+}
+.features p{
+    font-size: 18px; 
+    margin-bottom: 35px; 
+    line-height: 1.8; 
+    margin-top: 13px;
+}
+/*End Features*/
+
+
+
+
+
+/*Start testimonial*/
+
+.testimonial{
+	padding-top: 50px;
+	padding-bottom: 50px
+}
+.testimonial h1{
+	padding-bottom: 20px
+}
+.testimonial .lead{
+	line-height: 2em
+}
+.testimonial p{color: #666}
+.testimonial span{
+	color: #1abc9c;
+	font-size: 22px;
+	font-weight: bold
+}
+.testimonial .carousel-inner{
+	min-height: 180px
+}
+
+/*End testimonial*/
+
+/*Start Skills*/
+.progress-bar-success{background-color: #1abc9c;}
+/*End Skills*/
+
+.bran{background: none}
+
+.features .no-circle i{border: none; font-size: 50px; margin: 10px 0 0 0}
